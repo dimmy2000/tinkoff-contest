@@ -3,7 +3,7 @@ import json
 import os
 
 import git
-import solution
+from test_contest.A import solution
 
 git_repo = git.Repo(os.getcwd(), search_parent_directories=True)
 git_root = git_repo.git.rev_parse("--show-toplevel")

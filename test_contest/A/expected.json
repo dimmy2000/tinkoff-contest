@@ -1,10 +1,10 @@
 {
-  "first": {
+  "1": {
     "input": "100  10  12  15",
-    "output": 160
+    "output": "160"
   },
-  "second": {
+  "2": {
     "input": "100  10  12  1",
-    "output": 100
+    "output": "100"
   }
 }
