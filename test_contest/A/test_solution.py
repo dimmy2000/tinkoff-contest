@@ -3,6 +3,7 @@ import json
 import os
 
 import git
+
 from test_contest.A import solution
 
 git_repo = git.Repo(os.getcwd(), search_parent_directories=True)
