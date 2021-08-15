@@ -17,6 +17,6 @@ with open(file_path) as json_file:
 def test_solution(monkeypatch):
     for test_data in expected:
         expected[test_data]["input"] = iter(expected[test_data]["input"])
-        monkeypatch.setattr('builtins.input', lambda: next(expected[test_data]["input"]))
+        monkeypatch.setattr("builtins.input", lambda: next(expected[test_data]["input"]))
         out = solution.function()
         assert out == expected[test_data]["output"]
